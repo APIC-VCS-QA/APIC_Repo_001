@@ -26,8 +26,31 @@
     }
   },
   "dataFileExtension" : "json",
-  "updateTime" : "2026-07-27T09:56:02.034Z",
-  "objectRefs" : [ ],
+  "updateTime" : "2026-07-27T09:59:21.626Z",
+  "objectRefs" : [ {
+    "schemaVersion" : null,
+    "idmcRelease" : null,
+    "productRelease" : null,
+    "id" : "acfPDhm9MTVcQCwAW2gHKQ",
+    "name" : "process001",
+    "type" : "PROCESS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "ZX81Owhz5chspiR-gt-196841-2026-07-27T09:58:35.835Z::pd.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/APIC_VCS_Project001"
+  } ],
   "readableFileExtension" : null,
   "readableFilePresent" : false
 }
