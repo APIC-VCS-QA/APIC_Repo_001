@@ -1,0 +1,29 @@
+{
+  "documentData" : {
+    "type" : "AUTHENTICATION_POLICY",
+    "metadata" : {
+      "id" : "5c0a75fa-2bba-4ad3-b67f-0aa847a1d4a2",
+      "name" : "auth001",
+      "description" : "",
+      "category" : "SECURITY",
+      "type" : "AUTHENTICATION_POLICY",
+      "status" : "ENABLED",
+      "apiDesignRefCount" : 0,
+      "frsDocumentId" : "7o2ZNJgi7A0eYArOx7w8sg",
+      "frsLocation" : "8Z5mdchAEmHjXqBZfHn1i6",
+      "frsName" : "auth001",
+      "orgLevelRateLimitPolicy" : false
+    },
+    "definition" : {
+      "data" : { },
+      "id" : "41bb3b0e-183c-46a1-9d0d-8389451fd1db",
+      "authenticationSchemes" : [ "BASIC" ]
+    },
+    "inline" : false,
+    "inherited" : false,
+    "properties" : [ ]
+  },
+  "metadata" : {
+    "version" : "1.0"
+  }
+}
