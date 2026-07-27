@@ -13,7 +13,7 @@
     "name" : "REST_API_1",
     "description" : "",
     "version" : "v1",
-    "revision" : 1,
+    "revision" : 3,
     "type" : "REST_API",
     "status" : "PUBLISHED",
     "provider" : "API_CENTER",
