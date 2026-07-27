@@ -1,0 +1,90 @@
+{
+  "documentData" : {
+    "metadata" : {
+      "id" : "26b8ceb3-cbbd-4955-b67d-f8754df5bd63",
+      "type" : "REST_API",
+      "name" : "REST_API_1(v1)",
+      "description" : "",
+      "apiName" : "REST_API_1",
+      "version" : "v1",
+      "status" : "DRAFT",
+      "visibility" : "EXTERNAL",
+      "revisionNumber" : 1,
+      "frsDocumentId" : "5Tvqa5GN0J9iCO4zNpSlu7",
+      "lastModifiedDate" : 1785146099737,
+      "apiClusterId" : "59c7bd72-fe2a-41df-8abf-3f8c087a9692",
+      "isFixed" : true
+    },
+    "location" : "8plz4SGLJVdkyEeYFvW90H",
+    "definition" : {
+      "id" : "api_definition_1785146099190",
+      "operations" : [ ],
+      "implementationProviderIds" : [ ]
+    },
+    "metadata.type" : "REST_API",
+    "artifacts" : [ ],
+    "groups" : [ ],
+    "policies" : [ {
+      "policy" : {
+        "type" : "RATE_LIMITING_POLICY",
+        "metadata" : {
+          "category" : "OPERATIONAL",
+          "type" : "RATE_LIMITING_POLICY",
+          "apiDesignRefCount" : 0,
+          "orgLevelRateLimitPolicy" : false
+        },
+        "definition" : {
+          "data" : { }
+        },
+        "inline" : false,
+        "inherited" : false,
+        "properties" : [ ]
+      },
+      "selectionType" : "NONE",
+      "notes" : ""
+    }, {
+      "policy" : {
+        "type" : "AUTHENTICATION_POLICY",
+        "metadata" : {
+          "category" : "SECURITY",
+          "type" : "AUTHENTICATION_POLICY",
+          "apiDesignRefCount" : 0,
+          "orgLevelRateLimitPolicy" : false
+        },
+        "definition" : {
+          "data" : { },
+          "authenticationSchemes" : [ ]
+        },
+        "inline" : false,
+        "inherited" : false,
+        "properties" : [ ]
+      },
+      "selectionType" : "NONE",
+      "notes" : ""
+    }, {
+      "policy" : {
+        "type" : "PII_POLICY",
+        "metadata" : {
+          "category" : "PRIVACY",
+          "type" : "PII_POLICY",
+          "apiDesignRefCount" : 0,
+          "orgLevelRateLimitPolicy" : false
+        },
+        "definition" : {
+          "data" : { },
+          "fields" : [ ]
+        },
+        "inline" : false,
+        "inherited" : false,
+        "properties" : [ ]
+      },
+      "selectionType" : "NONE",
+      "notes" : ""
+    } ],
+    "tags" : [ ],
+    "properties" : [ ]
+  },
+  "metadata" : {
+    "VERSION" : "1.0"
+  }
+}
