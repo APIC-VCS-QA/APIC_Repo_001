@@ -93,7 +93,7 @@
           "inline" : false,
           "inherited" : false,
           "definition" : {
-            "authenticationSchemes" : [ "ANONYMOUS" ]
+            "authenticationSchemes" : [ ]
           }
         }, {
           "id" : "26d882ab-ef26-44d6-be60-a8792b293216",
@@ -160,13 +160,13 @@
           },
           "definition" : {
             "data" : { },
-            "authenticationSchemes" : [ ]
+            "authenticationSchemes" : [ "BEARER" ]
           },
           "inline" : false,
           "inherited" : false,
           "properties" : [ ]
         },
-        "selectionType" : "NONE",
+        "selectionType" : "INLINE",
         "notes" : ""
       }, {
         "policy" : {
@@ -253,6 +253,10 @@
       "id" : "cd926040-d8bc-46db-a10d-72f314a7a7cd",
       "name" : "ApiImplementationProviderType",
       "value" : "CAI_PROCESS"
+    }, {
+      "id" : "d694cfb8-4b0f-4284-89f4-d12417d7c224",
+      "name" : "isApiLevelJwtEnabled",
+      "value" : "true"
     } ],
     "runtimeEnvironmentInfo" : {
       "runtimeEnvironment" : "CLOUD"
