@@ -197,7 +197,12 @@
           "definition" : {
             "data" : { },
             "id" : "68b92564-d1b8-4877-a00f-423dfc92cffd",
-            "ipFilteringRules" : [ ]
+            "ipFilteringRules" : [ {
+              "startRange" : "1.1.1.1",
+              "endRange" : "10.10.10.10",
+              "description" : "",
+              "action" : "ALLOW"
+            } ]
           },
           "inline" : false,
           "inherited" : false,
