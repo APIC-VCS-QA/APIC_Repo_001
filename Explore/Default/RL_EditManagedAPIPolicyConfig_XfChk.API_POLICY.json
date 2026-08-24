@@ -1,0 +1,37 @@
+{
+  "documentData" : {
+    "type" : "RATE_LIMITING_POLICY",
+    "metadata" : {
+      "id" : "a7e75997-7fd6-4123-951c-469de660919e",
+      "name" : "RL_EditManagedAPIPolicyConfig_XfChk",
+      "description" : "This Is APIC Automation Policy for Rate Limit",
+      "category" : "OPERATIONAL",
+      "type" : "RATE_LIMITING_POLICY",
+      "status" : "ENABLED",
+      "apiDesignRefCount" : 0,
+      "frsDocumentId" : "b2hHVHJQzSqgYD30hU6EyW",
+      "frsLocation" : "6oTcp5bgMtucPk8gcr9p6n",
+      "frsName" : "RL_EditManagedAPIPolicyConfig_XfChk",
+      "orgLevelRateLimitPolicy" : false
+    },
+    "definition" : {
+      "data" : { },
+      "id" : "b431420e-0466-4f9a-8907-32295627fec8",
+      "tier" : {
+        "id" : "3d0e029c-44cb-4cca-bd77-577cab27a949",
+        "name" : "APIC_T_1787583687189",
+        "description" : "This Is APIC Automation Policy for Rate Limit",
+        "quota" : 20,
+        "timeInterval" : 1,
+        "timeUnit" : "MINUTE",
+        "internalTierId" : "fe9d1cde-339f-402d-807a-9ca2cc66b208"
+      }
+    },
+    "inline" : false,
+    "inherited" : false,
+    "properties" : [ ]
+  },
+  "metadata" : {
+    "version" : "1.0"
+  }
+}
