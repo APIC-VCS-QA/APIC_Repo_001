@@ -1,0 +1,384 @@
+{
+  "documentData" : {
+    "metadata" : {
+      "id" : "d7fd60fa-8e6b-4a57-bc1c-48e07c806052",
+      "type" : "REST_API",
+      "name" : "´ˆUZss_-REST_API_AUTO",
+      "description" : "REST API: ´ˆUZss_-REST_API_AUTO to validate Create Api with policies, request, response and operation implementation details",
+      "apiName" : "´ˆUZss_-REST_API_AUTO",
+      "version" : "v1",
+      "status" : "PUBLISHED",
+      "visibility" : "EXTERNAL",
+      "revisionNumber" : 1,
+      "frsDocumentId" : "jYqEe5A7hkqj7kvW6Z2V8F",
+      "lastModifiedDate" : 1786966835967,
+      "apiClusterId" : "2b1723f3-faf2-4fbc-9efa-c1e13751a590",
+      "isFixed" : true
+    },
+    "location" : "1bRBnt2iftXh8LHKRkqY8I",
+    "definition" : {
+      "id" : "api_definition_´ˆUZss_-REST_API_AUTO",
+      "operations" : [ {
+        "id" : "28571453-6bfd-4d68-a63c-6d4d8ac1eef5",
+        "title" : "TestOperation",
+        "description" : "Testing Array of Path and Query params through API Automation",
+        "tags" : [ ],
+        "implementationConfigurations" : [ {
+          "frsId" : "5DOzrMBRGKsimL8s4sUmM3",
+          "provider" : "CAI_PROCESS",
+          "assetName" : "APIC_Auto_Process_Basic_ArrayOfPathAndQueryParams",
+          "description" : "",
+          "implementationEndpoint" : "https://cai-qa-pod1-r32upgrade-intelb.infacloudops.net/activebpel-cert/rt/afzP958oEJNfziqy0DG8wp/APIC_Auto_Process_Basic_ArrayOfPathAndQueryParams",
+          "inputTransformations" : [ {
+            "type" : "PASS_THROUGH",
+            "type" : "PASS_THROUGH",
+            "implementationFieldPath" : "req1",
+            "dataType" : "STRING",
+            "apiDesignOperationFieldPath" : "req1"
+          } ],
+          "outputTransformations" : [ {
+            "type" : "PASS_THROUGH",
+            "type" : "PASS_THROUGH",
+            "implementationFieldPath" : "resp1",
+            "dataType" : "STRING",
+            "apiDesignOperationFieldPath" : "resp1"
+          } ],
+          "responseCodeMappings" : [ ]
+        } ],
+        "policies" : [ {
+          "policy" : {
+            "type" : "AUTHENTICATION_POLICY",
+            "metadata" : {
+              "category" : "SECURITY",
+              "type" : "AUTHENTICATION_POLICY",
+              "status" : "ENABLED",
+              "apiDesignRefCount" : 0,
+              "orgLevelRateLimitPolicy" : false
+            },
+            "definition" : {
+              "data" : { },
+              "authenticationSchemes" : [ "BASIC" ]
+            },
+            "inline" : false,
+            "inherited" : false,
+            "properties" : [ ]
+          },
+          "selectionType" : "INLINE",
+          "notes" : "TestAuthenticationOperationlevelPolicy"
+        }, {
+          "policy" : {
+            "type" : "RATE_LIMITING_POLICY",
+            "definition" : {
+              "data" : { }
+            },
+            "inline" : false,
+            "inherited" : false,
+            "properties" : [ ]
+          },
+          "selectionType" : "NONE",
+          "notes" : ""
+        }, {
+          "policy" : {
+            "type" : "RESPONSE_CACHING_POLICY",
+            "metadata" : {
+              "category" : "OPERATIONAL",
+              "type" : "RESPONSE_CACHING_POLICY",
+              "status" : "ENABLED",
+              "apiDesignRefCount" : 0,
+              "orgLevelRateLimitPolicy" : false
+            },
+            "definition" : {
+              "data" : { },
+              "cacheTimeoutInSeconds" : 1200
+            },
+            "inline" : false,
+            "inherited" : false,
+            "properties" : [ ]
+          },
+          "selectionType" : "INLINE",
+          "notes" : "TestResponseCachingOperationlevelPolicy"
+        } ],
+        "operationalConfiguration" : { },
+        "requestMethod" : "POST",
+        "path" : "/PnQAllVerbsRegnPost/{PathParamArrInt}/{PathParamArrNum}/{PathParamArrStr}/{PathParamNum}/{PathParamStr}?QueryParamInt&QueryParamStr&QueryParamArrNum=&QueryParamArrStr=test,test2&QueryParamArrInt=12,34,65&QueryParamArrBool=false,true",
+        "pathParameters" : [ {
+          "type" : "PATH",
+          "name" : "PathParamArrInt",
+          "description" : "PathParamArrInt",
+          "type" : "PATH",
+          "required" : true,
+          "dataType" : "ARRAY",
+          "arrayType" : "integer"
+        }, {
+          "type" : "PATH",
+          "name" : "PathParamArrNum",
+          "description" : "PathParamArrNum",
+          "type" : "PATH",
+          "required" : true,
+          "dataType" : "ARRAY",
+          "arrayType" : "number"
+        }, {
+          "type" : "PATH",
+          "name" : "PathParamArrStr",
+          "description" : "PathParamArrStr",
+          "type" : "PATH",
+          "required" : true,
+          "dataType" : "ARRAY",
+          "arrayType" : "string"
+        }, {
+          "type" : "PATH",
+          "name" : "PathParamNum",
+          "description" : "PathParamNum",
+          "type" : "PATH",
+          "required" : true,
+          "dataType" : "NUMBER"
+        }, {
+          "type" : "PATH",
+          "name" : "PathParamStr",
+          "description" : "PathParamStr",
+          "type" : "PATH",
+          "required" : true,
+          "dataType" : "STRING"
+        } ],
+        "queryParameters" : [ {
+          "type" : "QUERY",
+          "name" : "QueryParamArrStr",
+          "description" : "QueryParamArrStr",
+          "type" : "QUERY",
+          "required" : false,
+          "dataType" : "ARRAY",
+          "arrayType" : "string",
+          "defaultValue" : "test1,test2"
+        }, {
+          "type" : "QUERY",
+          "name" : "QueryParamInt",
+          "description" : "QueryParamInt",
+          "type" : "QUERY",
+          "required" : true,
+          "dataType" : "INTEGER"
+        }, {
+          "type" : "QUERY",
+          "name" : "QueryParamStr",
+          "description" : "",
+          "type" : "QUERY",
+          "required" : true,
+          "dataType" : "STRING"
+        }, {
+          "type" : "QUERY",
+          "name" : "QueryParamArrInt",
+          "description" : "QueryParamArrInt",
+          "type" : "QUERY",
+          "required" : false,
+          "dataType" : "ARRAY",
+          "arrayType" : "integer",
+          "defaultValue" : "12,34,65"
+        }, {
+          "type" : "QUERY",
+          "name" : "QueryParamArrBool",
+          "description" : "QueryParamArrBool",
+          "type" : "QUERY",
+          "required" : true,
+          "dataType" : "ARRAY",
+          "arrayType" : "boolean",
+          "defaultValue" : "false,true"
+        }, {
+          "type" : "QUERY",
+          "name" : "QueryParamArrNum",
+          "description" : "",
+          "type" : "QUERY",
+          "required" : true,
+          "dataType" : "ARRAY",
+          "arrayType" : "number"
+        } ],
+        "request" : {
+          "headers" : [ {
+            "scope" : "REQUEST",
+            "name" : "Accept",
+            "description" : "accept",
+            "type" : "INTEGER",
+            "value" : "*/*",
+            "required" : false
+          }, {
+            "scope" : "REQUEST",
+            "name" : "Content-Type",
+            "description" : "contenttype",
+            "type" : "STRING",
+            "value" : "application/json",
+            "required" : false
+          } ],
+          "mediaTypes" : [ "APPLICATION_JSON" ],
+          "body" : {
+            "metadata" : { },
+            "definition" : {
+              "fields" : [ {
+                "name" : "req1",
+                "description" : "requestField1",
+                "type" : "STRING",
+                "constraints" : {
+                  "required" : false
+                }
+              } ]
+            },
+            "inline" : false,
+            "properties" : [ ]
+          },
+          "constraints" : {
+            "required" : false
+          }
+        },
+        "duplicateOperation" : false,
+        "conflict" : false,
+        "responses" : [ {
+          "headers" : [ ],
+          "mediaTypes" : [ ],
+          "body" : {
+            "metadata" : { },
+            "definition" : {
+              "fields" : [ ]
+            },
+            "inline" : false,
+            "properties" : [ ]
+          },
+          "status" : "STATUS_404_NOT_FOUND",
+          "description" : "NotFound."
+        }, {
+          "headers" : [ {
+            "scope" : "RESPONSE",
+            "name" : "Accept-Encoding",
+            "description" : "acceptencoding",
+            "type" : "STRING",
+            "value" : "gzip",
+            "required" : false
+          }, {
+            "scope" : "RESPONSE",
+            "name" : "Connection",
+            "description" : "connection",
+            "type" : "STRING",
+            "value" : "keep-alive",
+            "required" : false
+          } ],
+          "mediaTypes" : [ "APPLICATION_JSON" ],
+          "body" : {
+            "metadata" : { },
+            "definition" : {
+              "fields" : [ {
+                "name" : "resp",
+                "description" : "responsefield1",
+                "type" : "STRING",
+                "constraints" : {
+                  "required" : false
+                }
+              } ]
+            },
+            "inline" : false,
+            "properties" : [ ]
+          },
+          "status" : "STATUS_200_OK",
+          "description" : ""
+        } ],
+        "ifSkip" : false,
+        "issuesParsing" : [ ]
+      } ],
+      "implementationProviderIds" : [ "5DOzrMBRGKsimL8s4sUmM3" ]
+    },
+    "metadata.type" : "REST_API",
+    "artifacts" : [ ],
+    "groups" : [ ],
+    "policies" : [ {
+      "policy" : {
+        "type" : "AUTHENTICATION_POLICY",
+        "metadata" : {
+          "id" : "8b8ef0ce-6b96-4da7-9382-a405532f0e4f",
+          "name" : "auto-generated-name-3869d4ab-3c73-4bae-8498-ec8da9d83bc6",
+          "description" : "auto-generated-description-3869d4ab-3c73-4bae-8498-ec8da9d83bc6",
+          "category" : "SECURITY",
+          "type" : "AUTHENTICATION_POLICY",
+          "status" : "ENABLED",
+          "apiDesignRefCount" : 0,
+          "orgLevelRateLimitPolicy" : false
+        },
+        "definition" : {
+          "data" : { },
+          "id" : "4c96c9c3-80ac-481b-8d9e-dce96e9d06f0",
+          "authenticationSchemes" : [ "BASIC", "OAUTH_2" ]
+        },
+        "inline" : true,
+        "inherited" : false,
+        "properties" : [ ]
+      },
+      "selectionType" : "INLINE",
+      "notes" : "TestAuthenticationOperationlevelPolicy"
+    }, {
+      "policy" : {
+        "type" : "RATE_LIMITING_POLICY",
+        "metadata" : {
+          "category" : "OPERATIONAL",
+          "type" : "RATE_LIMITING_POLICY",
+          "apiDesignRefCount" : 0,
+          "orgLevelRateLimitPolicy" : false
+        },
+        "definition" : {
+          "data" : { }
+        },
+        "inline" : false,
+        "inherited" : false,
+        "properties" : [ ]
+      },
+      "selectionType" : "NONE",
+      "notes" : ""
+    }, {
+      "policy" : {
+        "type" : "PII_POLICY",
+        "metadata" : {
+          "id" : "00b02049-e1c3-4da2-af08-88f523553d4d",
+          "name" : "auto-generated-name-2a23a2be-2b09-40c3-878b-c156ecd55aef",
+          "description" : "auto-generated-description-2a23a2be-2b09-40c3-878b-c156ecd55aef",
+          "category" : "PRIVACY",
+          "type" : "PII_POLICY",
+          "status" : "ENABLED",
+          "apiDesignRefCount" : 0,
+          "orgLevelRateLimitPolicy" : false
+        },
+        "definition" : {
+          "data" : { },
+          "id" : "460be8ad-2ef6-4c68-a1ea-5cf0c35de086",
+          "fields" : [ {
+            "name" : "Credit Card",
+            "requestAction" : "BLOCK",
+            "responseAction" : "NO_ACTION"
+          }, {
+            "name" : "Email Address",
+            "requestAction" : "NO_ACTION",
+            "responseAction" : "NO_ACTION"
+          }, {
+            "name" : "IP Address",
+            "requestAction" : "NO_ACTION",
+            "responseAction" : "NO_ACTION"
+          }, {
+            "name" : "Phone Number",
+            "requestAction" : "NO_ACTION",
+            "responseAction" : "WARNING"
+          }, {
+            "name" : "SSN",
+            "requestAction" : "NO_ACTION",
+            "responseAction" : "NO_ACTION"
+          } ]
+        },
+        "inline" : true,
+        "inherited" : false,
+        "properties" : [ ]
+      },
+      "selectionType" : "INLINE",
+      "notes" : "TestPIIOperationlevelPolicy"
+    } ],
+    "tags" : [ ],
+    "properties" : [ {
+      "id" : "61eec9f7-247b-4c3f-8f9e-edf5b5cf0ee6",
+      "name" : "ApiImplementationProviderType",
+      "value" : "CAI_PROCESS"
+    } ]
+  },
+  "metadata" : {
+    "VERSION" : "1.0"
+  }
+}
