@@ -4,7 +4,7 @@
     "metadata" : {
       "id" : "50157bc6-6cd3-4f1e-9892-4800d08f062a",
       "name" : "p2_demo",
-      "description" : "",
+      "description" : "editing the changes",
       "category" : "SECURITY",
       "type" : "AUTHENTICATION_POLICY",
       "status" : "ENABLED",
@@ -16,7 +16,7 @@
     },
     "definition" : {
       "data" : { },
-      "id" : "55891b93-8539-4fc1-b026-5d8e9ba01d10",
+      "id" : "269b7a68-9f93-4ec2-85e0-d95ccf07fe0a",
       "authenticationSchemes" : [ "BASIC", "OAUTH_2" ]
     },
     "inline" : false,
