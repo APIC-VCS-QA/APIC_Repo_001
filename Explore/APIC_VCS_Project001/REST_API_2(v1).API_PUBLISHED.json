@@ -11,13 +11,13 @@
       }
     },
     "name" : "REST_API_2",
-    "description" : "",
+    "description" : "add dewc",
     "version" : "v1",
-    "revision" : 1,
+    "revision" : 2,
     "type" : "REST_API",
     "status" : "PUBLISHED",
     "provider" : "API_CENTER",
-    "comments" : "",
+    "comments" : "add notes",
     "content" : {
       "tags" : [ ],
       "properties" : {
@@ -105,7 +105,7 @@
         },
         "configuration" : { },
         "policies" : [ {
-          "id" : "d7435e8a-e53d-4cc7-ad59-c6d4f0e47318",
+          "id" : "474ae872-049d-4f52-968a-9e4d72d79497",
           "category" : "OPERATIONAL",
           "type" : "RATE_LIMITING_POLICY",
           "status" : "ENABLED",
@@ -119,7 +119,7 @@
             }
           }
         }, {
-          "id" : "11eb2109-fd81-4a95-92c1-3656bdb36937",
+          "id" : "1815c7cd-2fe5-4085-86ed-7f0c9d8fa35a",
           "category" : "OPERATIONAL",
           "type" : "RESPONSE_CACHING_POLICY",
           "status" : "ENABLED",
@@ -149,9 +149,9 @@
         "selectionType" : "NONE",
         "notes" : ""
       } ],
-      "userLevelRateLimitsPolicyIds" : [ ],
       "apiLevelRateLimitNamedPolicyIds" : [ null ],
-      "operationLevelRateLimitNamedPolicyIds" : [ "d7435e8a-e53d-4cc7-ad59-c6d4f0e47318" ],
+      "operationLevelRateLimitNamedPolicyIds" : [ "474ae872-049d-4f52-968a-9e4d72d79497" ],
+      "userLevelRateLimitsPolicyIds" : [ ],
       "implementationProviderIds" : [ "acfPDhm9MTVcQCwAW2gHKQ" ]
     },
     "apiClusterId" : "07f93d4e-576c-4bd8-be18-579e81d2a74c",

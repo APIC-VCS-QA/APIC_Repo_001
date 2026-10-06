@@ -19,15 +19,38 @@
       },
       "contextAttributes" : [ ],
       "additionalInfo" : {
-        "description" : "",
+        "description" : "add dewc",
         "contentType" : "JSON",
         "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "json",
-  "updateTime" : "2026-10-06T06:28:47.485Z",
-  "objectRefs" : [ ],
+  "updateTime" : "2026-10-06T06:31:16.448Z",
+  "objectRefs" : [ {
+    "schemaVersion" : null,
+    "idmcRelease" : null,
+    "productRelease" : null,
+    "id" : "acfPDhm9MTVcQCwAW2gHKQ",
+    "name" : "process001",
+    "type" : "PROCESS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "ZX81Owhz5chspiR-gt-196841-2026-07-27T09:58:35.835Z::pd.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/APIC_VCS_Project001"
+  } ],
   "readableFileExtension" : null,
   "readableFilePresent" : false
 }
