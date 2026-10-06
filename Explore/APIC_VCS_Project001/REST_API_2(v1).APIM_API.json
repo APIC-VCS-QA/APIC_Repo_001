@@ -11,13 +11,13 @@
       "visibility" : "EXTERNAL",
       "revisionNumber" : 1,
       "frsDocumentId" : "dXaDbr0inCqkhuUAjRhXAR",
-      "lastModifiedDate" : 1791267595419,
+      "lastModifiedDate" : 1791267633831,
       "apiClusterId" : "07f93d4e-576c-4bd8-be18-579e81d2a74c",
       "isFixed" : true
     },
     "location" : "8plz4SGLJVdkyEeYFvW90H",
     "definition" : {
-      "id" : "api_definition_1791267594001",
+      "id" : "api_definition_1791267633030",
       "operations" : [ ],
       "implementationProviderIds" : [ ]
     },
@@ -25,25 +25,6 @@
     "artifacts" : [ ],
     "groups" : [ ],
     "policies" : [ {
-      "policy" : {
-        "type" : "AUTHENTICATION_POLICY",
-        "metadata" : {
-          "category" : "SECURITY",
-          "type" : "AUTHENTICATION_POLICY",
-          "apiDesignRefCount" : 0,
-          "orgLevelRateLimitPolicy" : false
-        },
-        "definition" : {
-          "data" : { },
-          "authenticationSchemes" : [ ]
-        },
-        "inline" : false,
-        "inherited" : false,
-        "properties" : [ ]
-      },
-      "selectionType" : "NONE",
-      "notes" : ""
-    }, {
       "policy" : {
         "type" : "RATE_LIMITING_POLICY",
         "metadata" : {
@@ -60,6 +41,33 @@
         "properties" : [ ]
       },
       "selectionType" : "NONE",
+      "notes" : ""
+    }, {
+      "policy" : {
+        "type" : "AUTHENTICATION_POLICY",
+        "metadata" : {
+          "id" : "b6d08587-eb9f-4d9a-b4bb-2ae069e5c0c5",
+          "name" : "AC_pl001",
+          "description" : "Adding descritopn for ASset comparison",
+          "category" : "SECURITY",
+          "type" : "AUTHENTICATION_POLICY",
+          "status" : "ENABLED",
+          "apiDesignRefCount" : 0,
+          "frsDocumentId" : "6ZOny2BsE6GbY7nXWvBPIe",
+          "frsLocation" : "8Z5mdchAEmHjXqBZfHn1i6",
+          "frsName" : "AC_pl001",
+          "orgLevelRateLimitPolicy" : false
+        },
+        "definition" : {
+          "data" : { },
+          "id" : "5b55cc48-cf77-4e25-ae20-9ab3ea24e1f4",
+          "authenticationSchemes" : [ "BASIC", "OAUTH_2" ]
+        },
+        "inline" : false,
+        "inherited" : false,
+        "properties" : [ ]
+      },
+      "selectionType" : "NAMED",
       "notes" : ""
     }, {
       "policy" : {
